@@ -1,5 +1,6 @@
 body {
     background-color: #fff;
+    font-family: 'Raleway', sans-serif;
 }
 
 footer {
@@ -18,4 +19,5 @@ ul {
 
 .footer-list {
     text-decoration: underline;
+
 }
