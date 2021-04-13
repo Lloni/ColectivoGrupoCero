@@ -5,21 +5,33 @@ body {
 
 footer, ul, a {
     background-color: #CD1919;
-    height: 176px;
     list-style: none;
     color: #fff;
 }
 
+.sm-images img {
+    width: 26px;
+    height: 26px;
+}
+
+.facebook img {
+    width: 13px;
+    height: 26px;
+}
+
 .container-footer {
     display: grid;
-    grid-template-columns: 4fr 3fr 5fr;
+    grid-template-columns: 3fr 3fr 5fr;
     justify-items: center;
     color: #fff;
-    padding: 35px ;
+    padding: 35px;
 }
 
 .footer-info {
+    display: grid;
+    grid-template-rows: 50%;
     font-size: 13px;
+    line-height: 4px;
 }
 
 .footer-info h4 {
@@ -31,4 +43,11 @@ footer, ul, a {
     text-decoration: underline;
     font-size: 15px;
     font-weight: bold;
+}
+
+.dev {
+    text-align: end;
+    padding-top: 35px;
+    font-size: 13px;
+    line-height: 4px;
 }
