@@ -41,7 +41,7 @@ body {
     padding-left: 10px;
 } 
 
-
+/*   FOOTER   */
 footer, ul, a {
     background-color: #CD1919;
     list-style: none;
@@ -82,4 +82,20 @@ footer, ul, a {
     text-decoration: underline;
     font-size: 15px;
     font-weight: bold;
+}
+
+.footer-socialmedia {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.footer-socialmedia img {
+    width: 26px;
+    height: 26px;
+}
+
+.footer-socialmedia p {
+    text-align: end;
+    font-size: 13px;
+    line-height: 4px;
 }
