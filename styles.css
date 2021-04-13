@@ -9,3 +9,35 @@ body {
 
     font-family: 'Raleway', sans-serif;
 }
+    font-family: 'Raleway', sans-serif;
+}
+
+footer, ul, a {
+    background-color: #CD1919;
+    height: 176px;
+    list-style: none;
+    color: #fff;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 5fr;
+    justify-items: center;
+    color: #fff;
+    padding: 35px ;
+}
+
+.footer-info {
+    font-size: 13px;
+}
+
+.footer-info h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer-list {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: bold;
+}
