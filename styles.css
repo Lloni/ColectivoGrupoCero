@@ -1,3 +1,21 @@
 body {
     background-color: #fff;
 }
+
+footer {
+    background-color: #CD1919;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: 4fr 3fr 5fr;
+    color: #fff;
+}
+
+.footer-list {
+    text-decoration: underline;
+}
