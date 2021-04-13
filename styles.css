@@ -37,13 +37,14 @@ body {
     color: white;
 }
 
-{
-    font-family: 'Raleway', sans-serif;
-}
+.row .login-btn {
+    padding-left: 10px;
+} 
+
 
 footer, ul, a {
     background-color: #CD1919;
-    height: 176px;
+    /* height: 176px; */
     list-style: none;
     color: #fff;
 }
