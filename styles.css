@@ -58,7 +58,13 @@ body {
 
 .img{
     border-radius: 50%;
-    width: 50%;
+    width: 70%;
+}
+
+.cont_fondo{
+    background: #F4ECD2;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /*   FOOTER   */
