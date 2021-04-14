@@ -41,6 +41,26 @@ body {
     padding-left: 10px;
 } 
 
+/* LINEA */
+.linea {
+    border-top: 2px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 40px auto 0 auto;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+/* CONTENEDOR */
+.p{
+    margin: 0 auto;
+}
+
+.img{
+    border-radius: 50%;
+    width: 50%;
+}
+
 /*   FOOTER   */
 footer, ul, a {
     background-color: #CD1919;
