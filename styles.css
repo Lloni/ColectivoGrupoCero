@@ -102,3 +102,15 @@ footer, ul, a {
     font-size: 13px;
     line-height: 4px;
 }
+
+.patron-puntos {
+    background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
+        background-position-x: 0%, 0%, 0%;
+        background-position-y: 0%, 0%, 0%;
+        background-size: auto, auto, auto;
+    background-position-x: 0%, 0%, 0%;
+    background-position-y: 0%, 0%, 0%;
+    background-size: auto, auto, auto;
+    background-position: 0px 0px;
+    background-size: 15px 15px;
+}
