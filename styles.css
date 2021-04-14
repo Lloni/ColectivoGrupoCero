@@ -7,6 +7,10 @@ body {
     background-color: #CD1919;
 }
 
+.margen{
+    margin-left: 10px;
+}
+
 /* Header */
 #header_img {
     background-color:rgba(0, 0, 0, 0.486);
