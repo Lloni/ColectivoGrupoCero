@@ -85,6 +85,12 @@ body {
     padding-bottom: 40px;
 }
 
+.card_slice_detalleobra {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 
 /*   FOOTER   */
 
@@ -112,6 +118,10 @@ a {
     justify-items: center;
     color: #fff;
     padding: 35px;
+}
+
+.container-footer a:hover {
+    color: rgb(202, 202, 202);
 }
 
 .footer-info {
