@@ -165,4 +165,19 @@ a {
 .footer-socialmedia p {
     text-align: end;
     font-size: 13px;
+    line-height: 4px;
+}
+
+/*   CONTACTO   */
+.contacto{
+    margin: 100px;
+    background-image: url(./img/El\ CAT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.color-contact{
+    background: #F4ECD2;
+    color:rgb(85, 85, 85);
+    
 }
