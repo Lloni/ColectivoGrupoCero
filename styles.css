@@ -86,12 +86,20 @@ body {
     padding-bottom: 40px;
 }
 
+/* FICHERO DETALLE OBRA */
+
 .card_slice_detalleobra {
     background-color: #fff;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+.cont_fondo_do {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
 
 /* FICHERO ARTISTAS */
 
@@ -137,7 +145,7 @@ a {
 }
 
 .container-footer a:hover {
-    color: rgb(202, 202, 202);
+    color: #F4ECD2;
 }
 
 .footer-info {
