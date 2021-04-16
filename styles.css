@@ -2,14 +2,22 @@ body {
     background-color: #fff;
 }
 
+
 /* Color -- Enlaces, NavBar, Footer, Botones */
+
 .primario {
     background-color: #CD1919;
 }
 
+.margen {
+    margin-left: 10px;
+}
+
+
 /* Header */
+
 #header_img {
-    background-color:rgba(0, 0, 0, 0.486);
+    background-color: rgba(0, 0, 0, 0.486);
     background-image: url("img/cafe_header.jpg");
     height: 500px;
     background-position: center;
@@ -18,14 +26,14 @@ body {
     position: relative;
 }
 
-#header_img:before{
-    content:'';
-	position: absolute;
-        top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: rgba(0,0,0,0.6);
+#header_img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #header_text {
@@ -39,9 +47,11 @@ body {
 
 .row .login-btn {
     padding-left: 10px;
-} 
+}
+
 
 /* LINEA */
+
 .linea {
     border-top: 2px solid black;
     height: 2px;
@@ -51,24 +61,36 @@ body {
     overflow: auto;
 }
 
+
 /* CONTENEDOR */
-.p{
+
+.p {
     margin: 0 auto;
 }
 
-.img{
+.img {
     border-radius: 50%;
     width: 70%;
 }
 
-.cont_fondo{
+.cont_fondo {
     background: #F4ECD2;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+.card_slice {
+    background: linear-gradient(180deg, #555555 0%, #2C2C2C 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
 /*   FOOTER   */
-footer, ul, a {
+
+footer,
+ul,
+a {
     background-color: #CD1919;
     list-style: none;
     color: #fff;
@@ -86,7 +108,7 @@ footer, ul, a {
 
 .container-footer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 2fr);
     justify-items: center;
     color: #fff;
     padding: 35px;
@@ -96,7 +118,7 @@ footer, ul, a {
     display: grid;
     grid-template-rows: 50%;
     font-size: 13px;
-    line-height: 4px;
+    text-align: left;
 }
 
 .footer-info h4 {
@@ -108,6 +130,7 @@ footer, ul, a {
     text-decoration: underline;
     font-size: 15px;
     font-weight: bold;
+    text-align: left;
 }
 
 .footer-socialmedia {
