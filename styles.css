@@ -186,7 +186,6 @@ a {
     line-height: 4px;
 }
 
-
 /*   CONTACTO   */
 
 .contacto {
@@ -199,4 +198,16 @@ a {
 .color-contact {
     background: #F4ECD2;
     color: rgb(85, 85, 85);
+}
+
+.patron-puntos {
+    background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
+        background-position-x: 0%, 0%, 0%;
+        background-position-y: 0%, 0%, 0%;
+        background-size: auto, auto, auto;
+    background-position-x: 0%, 0%, 0%;
+    background-position-y: 0%, 0%, 0%;
+    background-size: auto, auto, auto;
+    background-position: 0px 0px;
+    background-size: 15px 15px;
 }
