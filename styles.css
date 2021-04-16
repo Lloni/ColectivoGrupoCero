@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #ffe2e27e;
 }
 
 
@@ -71,6 +71,7 @@ body {
 .img {
     border-radius: 50%;
     width: 70%;
+    position: relative;
 }
 
 .cont_fondo {
@@ -87,6 +88,21 @@ body {
 
 .card_slice_detalleobra {
     background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* FICHERO ARTISTAS */
+
+.artista {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.artistas_slice {
+    background: linear-gradient(180deg, #fffefe 0%, #c9c8c8 100%);
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -162,16 +178,17 @@ a {
     line-height: 4px;
 }
 
+
 /*   CONTACTO   */
-.contacto{
+
+.contacto {
     margin: 100px;
-    background-image: url(./img/El\ CAT.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
-.color-contact{
+
+.color-contact {
     background: #F4ECD2;
-    color:rgb(85, 85, 85);
-    
+    color: rgb(85, 85, 85);
 }
