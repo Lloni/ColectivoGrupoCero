@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #ffe2e27e;
 }
 
 
@@ -71,6 +71,7 @@ body {
 .img {
     border-radius: 50%;
     width: 70%;
+    position: relative;
 }
 
 .cont_fondo {
@@ -81,6 +82,21 @@ body {
 
 .card_slice {
     background: linear-gradient(180deg, #555555 0%, #2C2C2C 100%);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* FICHERO ARTISTAS */
+
+.artista {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.artistas_slice {
+    background: linear-gradient(180deg, #fffefe 0%, #c9c8c8 100%);
     padding-top: 40px;
     padding-bottom: 40px;
 }
