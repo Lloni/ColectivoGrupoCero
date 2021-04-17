@@ -182,6 +182,19 @@ a {
     color: rgb(85, 85, 85);
 }
 
+/*   Inicio Sesion   */
+.formulario-inicio_sesion{
+    background:rgba(0, 0, 0,.5);
+    padding: 20px;
+
+}
+.formulario-crear-cuenta{
+    background:rgba(0, 0, 0,.5);
+    padding: 30px;
+
+}
+
+
 .patron-puntos {
     background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
         background-position-x: 0%, 0%, 0%;
