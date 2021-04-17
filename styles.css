@@ -127,6 +127,7 @@ a:hover {
     padding-bottom: 60px;
 }
 
+
 /* FICHERO DETALLE OBRA */
 
 .card_slice_detalleobra {
@@ -141,6 +142,7 @@ a:hover {
     padding-top: 100px;
     padding-bottom: 80px;
 }
+
 
 /* FICHERO ARTISTAS */
 
@@ -238,13 +240,12 @@ footer ul a {
     line-height: 4px;
 }
 
+
 /*   CONTACTO   */
 
 .contacto {
-    margin: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .color-contact {
@@ -254,9 +255,9 @@ footer ul a {
 
 .patron-puntos {
     background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
-        background-position-x: 0%, 0%, 0%;
-        background-position-y: 0%, 0%, 0%;
-        background-size: auto, auto, auto;
+    background-position-x: 0%, 0%, 0%;
+    background-position-y: 0%, 0%, 0%;
+    background-size: auto, auto, auto;
     background-position-x: 0%, 0%, 0%;
     background-position-y: 0%, 0%, 0%;
     background-size: auto, auto, auto;
