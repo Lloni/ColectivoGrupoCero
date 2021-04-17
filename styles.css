@@ -142,7 +142,7 @@ a:hover {
 /* LINEA */
 
 .linea {
-    border-top: 2px solid black;
+    border-top: 2px solid #bbb;
     height: 2px;
     padding: 0;
     margin: 40px auto 0 auto;
