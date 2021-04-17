@@ -203,18 +203,16 @@ a {
 
 
 /*   Inicio Sesion   */
-.formulario-inicio_sesion{
-    background:rgba(0, 0, 0,.5);
+
+.formulario-inicio_sesion {
+    background: rgba(0, 0, 0, .5);
     padding: 20px;
-
 }
-.formulario-crear-cuenta{
-    background:rgba(0, 0, 0,.5);
+
+.formulario-crear-cuenta {
+    background: rgba(0, 0, 0, .5);
     padding: 30px;
-
 }
-
-
 
 .artista_contacto img {
     display: block;
@@ -225,9 +223,5 @@ a {
 .artista_contacto {
     float: left;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
-<<<<<<< HEAD
     margin: 10px 0 0 5px;
-=======
-
->>>>>>> c7dd98c9d2ff7fffd07e6bac362cd65ab69592b2
 }
