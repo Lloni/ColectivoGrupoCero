@@ -112,10 +112,42 @@ a:hover {
 }
 
 
+/* INICIO DE SESION */
+
+#log_img {
+    background-color: rgba(0, 0, 0, 0.486);
+    background-image: url("img/cafe_header.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#log_img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
 /* LINEA */
 
 .linea {
     border-top: 2px solid black;
+    height: 2px;
+    padding: 0;
+    margin: 40px auto 0 auto;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+.linea-blanca {
+    border-top: 2px solid white;
     height: 2px;
     padding: 0;
     margin: 40px auto 0 auto;
@@ -167,10 +199,16 @@ a:hover {
 
 /* FICHERO ARTISTAS */
 
-.artista {
+.detalle-artista {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.artista {
+    background-color: #4F4F4F;
+    padding: 60px;
+    padding-top: 120px;
 }
 
 .artistas_slice {
