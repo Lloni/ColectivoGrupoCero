@@ -1,7 +1,44 @@
 body {
     background-color: #ffe2e27e;
+    font-family: Raleway, sans-serif;
 }
 
+h1 {
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+h2, h5 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+h3, h4 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+p {
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+
+.text-link {
+    color: #cd1919;
+    font-weight: 700; 
+}
+
+a:hover {
+    color: #E87C7C;
+}
+
+/* Estilos globales */
 
 /* Color -- Enlaces, NavBar, Footer, Botones */
 
@@ -9,8 +46,29 @@ body {
     background-color: #CD1919;
 }
 
+.btn.primario {
+    font-weight: 700;
+}
+
+.btn.primario:hover {
+    background-color: #E87C7C;
+}
+
 .margen {
     margin-left: 10px;
+}
+
+.navbar-brand > img {
+    color: #fff;
+}
+
+.nav-link.text-white-50:hover {
+    color: rgba(255,255,255,1) !important
+}
+
+.fa-sign-in-alt {
+    color: white;
+    font-size: 2.4rem;
 }
 
 
@@ -43,6 +101,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+
+#header_text > h1 {
+    font-size: 4rem;
 }
 
 .row .login-btn {
@@ -83,7 +145,7 @@ body {
 .card_slice {
     background: linear-gradient(180deg, #555555 0%, #2C2C2C 100%);
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 
@@ -120,13 +182,24 @@ body {
 
 /*   FOOTER   */
 
-footer,
-ul,
-a {
+footer {
     background-color: #CD1919;
     list-style: none;
     color: #fff;
 }
+
+footer ul {
+    background-color: #CD1919;
+    list-style: none;
+    color: #fff;
+}
+
+footer ul a {
+    background-color: #CD1919;
+    list-style: none;
+    color: #fff;
+}
+
 
 .sm-images img {
     width: 26px;
@@ -153,17 +226,27 @@ a {
 .footer-info {
     display: grid;
     grid-template-rows: 50%;
-    font-size: 13px;
+    font-size: 14px;
     text-align: left;
 }
 
 .footer-info h4 {
     font-size: 15px;
     font-weight: bold;
+    padding: 0px;
+}
+
+.footer-info p {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-info p a {
+    color: white;
 }
 
 .footer-list {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 15px;
     font-weight: bold;
     text-align: left;
@@ -201,13 +284,53 @@ a {
     color: rgb(85, 85, 85);
 }
 
+.patron-puntos {
+    background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
+    background-position-x: 0%, 0%, 0%;
+    background-position-y: 0%, 0%, 0%;
+    background-size: auto, auto, auto;
+    background-position-x: 0%, 0%, 0%;
+    background-position-y: 0%, 0%, 0%;
+    background-size: auto, auto, auto;
+    background-position: 0px 0px;
+    background-size: 15px 15px;
+}
+
+
+.row.align-content-center.text-lg-center {
+    padding: 0 40px 0 40px;
+}
+
+.card-cover {
+    height: 230px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel-inner {
+    padding: 0 30px 0 30px;
+}
+
+/*   Inicio Sesion   */
+
+.formulario-inicio_sesion {
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+}
+
+.formulario-crear-cuenta {
+    background: rgba(0, 0, 0, .5);
+    padding: 30px;
+}
+
 .artista_contacto img {
-    margin-top: 60px;
-    margin-right: 10px;
     display: block;
+    position: relative;
+    margin: 25px 20px -30px 20px;
 }
 
 .artista_contacto {
     float: left;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    margin: 10px 0 0 5px;
 }
