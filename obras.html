@@ -9,6 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -27,7 +28,7 @@
     <!-- MENU NavBar -->
     <nav class="navbar navbar-expand-lg navbar-light primario">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/logo_cgc_nav.svg" alt="CGC" width="80"></a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo_cgc_nav.svg" alt="CGC" width="80"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,14 +59,13 @@
 
                     <!-- INICIAR SESION -->
                     <div>
-                        <div data-toggle="tooltip" data-placement="bottom" title="Login / Registro">
-                            <a class="margen" href="iniciosesion.html"><i class="fas fa-sign-in-alt"></i></a>
-                        </div>
+                        <a class="margen" href="#"><img src="img/logo_login.png" alt="login" width="35"></a>
                     </div>
 
                 </div>
             </div>
     </nav>
+
     <!-- BODY -->
 
     <div class="container-xl cont_fondo-obra">
@@ -82,14 +82,150 @@
                 <img class="img-fluid" src="img/art_gallery.jpg" alt="Galeria de Artes">
             </div>
         </div>
-        <hr class="colorhr">
     </div>
+</body>
 
+<body>
+    <div class="container-xl">
 
+        <div class="container-xl justify-content-center  mt-5 mb-3">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="float-left ">
+                        Obras en exhibición
+                    </h2>
+                </div>
 
-    <div class="container-xl pt-3">
+                <div class="col-4">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Ordenar por
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <body class="body-obras">
+            <div class="obras">
+                <div class="container-obras">
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="item-obras">
+                        <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
+                        <div class="item-obras-text">
+                            <h3>Imagen 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+        <div class="container-xl justify-content-center"></div>
         <nav aria-label="Page navigation example">
-            <ul class="pagination">
+            <ul class="pagination pb-4 ">
                 <li class="page-item">
                     <a class="page-link" href="#" aria-label="Previous">
                         <span aria-hidden="true">&laquo;</span>
@@ -105,153 +241,59 @@
                 </li>
             </ul>
         </nav>
+    </div>
+</body>
 
 
-        <div class="body-obras obras">
-            <div class="container-obras">
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
 
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
-                <div class="item-obras">
-                    <img src="./img/escultura_pez.jpg" alt="" class="item-obras-img">
-                    <div class="item-obras-text">
-                        <h3>Imagen 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
-                    </div>
-                </div>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container-footer">
+
+        <div class="footer-info">
+            <div>
+                <h4>COLECTIVO ARTISTICO</h4>
+                <h4>GRUPO CERO</h4>
+            </div>
+            <div>
+                <p>Av Falsa #123, Valparaiso, Chile</p>
+                <p>F. +563223442322</p>
+                <p><a href="mailto:#">hola@grupocero.cl</a></p>
             </div>
         </div>
+        <div class="footer-list">
 
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="obras.html">Galeria</a></li>
+                <li><a href="artistas.html">Artistas</a></li>
+                <li><a href="#">Preguntas Frecuentes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
 
-
-        <!-- FOOTER -->
-        <footer>
-            <div class="container-footer">
-
-                <div class="footer-info">
-                    <div>
-                        <h4>COLECTIVO ARTISTICO</h4>
-                        <h4>GRUPO CERO</h4>
-                    </div>
-                    <div>
-                        <p>Av Falsa #123, Valparaiso, Chile</p>
-                        <p>F. +563223442322</p>
-                        <p><a href="mailto:#">hola@grupocero.cl</a></p>
-                    </div>
-                </div>
-                <div class="footer-list">
-
-                    <ul>
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="#">Galeria</a></li>
-                        <li><a href="artistas.html">Artistas</a></li>
-                        <li><a href="#">Preguntas Frecuentes</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-socialmedia">
-                    <div class="sm-logos">
-                        <img src="img/logo_vimeo.png" alt="vimeo">
-                        <img src="img/logo_instagram.png" alt="instagram">
-                        <img src="img/logo_facebook.png" alt="facebook">
-                    </div>
-                    <div>
-                        <p>Sitio desarrollado por ASDF comunicaciones 2021</p>
-                        <p>Todos los derechos reservados</p>
-                    </div>
-                </div>
+        <div class="footer-socialmedia">
+            <div class="sm-logos">
+                <img src="img/logo_vimeo.png" alt="vimeo">
+                <img src="img/logo_instagram.png" alt="instagram">
+                <img src="img/logo_facebook.png" alt="facebook">
             </div>
+            <div>
+                <p>Sitio desarrollado por ASDF comunicaciones 2021</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </div>
 
-        </footer>
+</footer>
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
-        </script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+</script>
 
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-        <script>
-            $(function() {
-                $('[data-toggle="tooltip"]').tooltip()
-            })
-        </script>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </body>
 
