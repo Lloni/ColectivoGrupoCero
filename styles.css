@@ -202,12 +202,13 @@ a {
 }
 
 .artista_contacto img {
-    margin-top: 60px;
-    margin-right: 10px;
     display: block;
+    position: relative;
+    margin: 25px 20px -30px 20px;
 }
 
 .artista_contacto {
     float: left;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    margin: 10px 0 0 5px;
 }
