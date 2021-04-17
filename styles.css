@@ -46,8 +46,33 @@ a:hover {
     background-color: #CD1919;
 }
 
+.btn.primario {
+    font-weight: 700;
+}
+
+.btn.primario:hover {
+    background-color: #E87C7C;
+}
+
 .margen {
     margin-left: 10px;
+}
+
+.navbar-brand > img {
+    color: #fff;
+}
+
+.navbar-brand > img:hover {
+    color: #E87C7C;
+}
+
+.nav-link.text-white-50:hover {
+    color: rgba(255,255,255,1) !important
+}
+
+.fa-sign-in-alt {
+    color: white;
+    font-size: 2.4rem;
 }
 
 
@@ -205,17 +230,27 @@ footer ul a {
 .footer-info {
     display: grid;
     grid-template-rows: 50%;
-    font-size: 13px;
+    font-size: 14px;
     text-align: left;
 }
 
 .footer-info h4 {
     font-size: 15px;
     font-weight: bold;
+    padding: 0px;
+}
+
+.footer-info p {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.footer-info p a {
+    color: white;
 }
 
 .footer-list {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 15px;
     font-weight: bold;
     text-align: left;
