@@ -201,14 +201,9 @@ a {
     color: rgb(85, 85, 85);
 }
 
-.patron-puntos {
-    background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
-    background-position-x: 0%, 0%, 0%;
-    background-position-y: 0%, 0%, 0%;
-    background-size: auto, auto, auto;
-    background-position-x: 0%, 0%, 0%;
-    background-position-y: 0%, 0%, 0%;
-    background-size: auto, auto, auto;
-    background-position: 0px 0px;
-    background-size: 15px 15px;
+.artista_contacto {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    margin-top: 60px;
+    margin-right: 10px;
+    display: block;
 }
