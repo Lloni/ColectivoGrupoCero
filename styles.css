@@ -1,7 +1,44 @@
 body {
     background-color: #ffe2e27e;
+    font-family: Raleway, sans-serif;
 }
 
+h1 {
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+h2, h5 {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+h3, h4 {
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+p {
+    font-weight: 400;
+    line-height: 140%;
+    padding-bottom: 10px;
+}
+
+.text-link {
+    color: #cd1919;
+    font-weight: 700; 
+}
+
+a:hover {
+    color: #E87C7C;
+}
+
+/* Estilos globales */
 
 /* Color -- Enlaces, NavBar, Footer, Botones */
 
@@ -45,6 +82,10 @@ body {
     color: white;
 }
 
+#header_text > h1 {
+    font-size: 4rem;
+}
+
 .row .login-btn {
     padding-left: 10px;
 }
@@ -86,6 +127,20 @@ body {
     padding-bottom: 60px;
 }
 
+/* FICHERO DETALLE OBRA */
+
+.card_slice_detalleobra {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cont_fondo_do {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
 
 /* FICHERO ARTISTAS */
 
@@ -104,13 +159,24 @@ body {
 
 /*   FOOTER   */
 
-footer,
-ul,
-a {
+footer {
     background-color: #CD1919;
     list-style: none;
     color: #fff;
 }
+
+footer ul {
+    background-color: #CD1919;
+    list-style: none;
+    color: #fff;
+}
+
+footer ul a {
+    background-color: #CD1919;
+    list-style: none;
+    color: #fff;
+}
+
 
 .sm-images img {
     width: 26px;
@@ -128,6 +194,10 @@ a {
     justify-items: center;
     color: #fff;
     padding: 35px;
+}
+
+.container-footer a:hover {
+    color: #F4ECD2;
 }
 
 .footer-info {
