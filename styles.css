@@ -87,6 +87,22 @@ body {
 }
 
 
+/* FICHERO DETALLE OBRA */
+
+.card_slice_detalleobra {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cont_fondo_do {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
 /* FICHERO ARTISTAS */
 
 .artista {
@@ -130,6 +146,10 @@ a {
     padding: 35px;
 }
 
+.container-footer a:hover {
+    color: #F4ECD2;
+}
+
 .footer-info {
     display: grid;
     grid-template-rows: 50%;
@@ -168,13 +188,12 @@ a {
     line-height: 4px;
 }
 
+
 /*   CONTACTO   */
 
 .contacto {
-    margin: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .color-contact {
@@ -182,6 +201,7 @@ a {
     color: rgb(85, 85, 85);
 }
 
+<<<<<<< HEAD
 /*   Inicio Sesion   */
 .formulario-inicio_sesion{
     background:rgba(0, 0, 0,.5);
@@ -205,4 +225,15 @@ a {
     background-size: auto, auto, auto;
     background-position: 0px 0px;
     background-size: 15px 15px;
+=======
+.artista_contacto img {
+    margin-top: 60px;
+    margin-right: 10px;
+    display: block;
+}
+
+.artista_contacto {
+    float: left;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
+>>>>>>> f98e0f97cc55077f343962c555edd5650436dff0
 }
