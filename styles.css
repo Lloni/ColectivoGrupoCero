@@ -123,6 +123,15 @@ a:hover {
     overflow: auto;
 }
 
+.linea-blanca {
+    border-top: 2px solid white;
+    height: 2px;
+    padding: 0;
+    margin: 40px auto 0 auto;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
 
 /* CONTENEDOR */
 
@@ -167,10 +176,16 @@ a:hover {
 
 /* FICHERO ARTISTAS */
 
-.artista {
+.detalle-artista {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.artista {
+    background-color: #4F4F4F;
+    padding: 60px;
+    padding-top: 120px;
 }
 
 .artistas_slice {
