@@ -70,17 +70,46 @@
 
 
     <!-- PUBLICACION -->
-    <div>
-        <div class="form-row mt-2">
-            <div class="col-md-4 mb-3">
-                <label for="nombre">Nombre de la obra</label>
-                <input type="text" class="form-control" id="Nombre" name="Nombre" required placeholder="Ej: Atardecer en mi mente">
+    <div class="container-xl contacto">
+
+      <div class="row justify-content-left">
+        <div class="col-12 col-md-10 col-lg-6">
+          <div>
+            <h1>Publicar una obra</h1>
+
+            <label for="nombre">Nombre de la obra</label>
+            <input type="text" class="form-control" id="nombre-obra" name="nombre" required placeholder="Ej: Atardecer en mi mente">
+
+            <label for="fecha">Año</label>
+            <input type="text" class="form-control" id="fecha" name="fecha" required placeholder="Ej: 2021">
+
+            <label for="valor">Precio (en pesos chilenos)</label>
+            <input type="text" class="form-control" id="precio" name="precio" required placeholder="Ej: 250.000">
+
+            <label for="tipo-obra">Tipo de obra</label>
+            <input type="text" class="form-control" id="tipo-obra" name="tipo-obra" required placeholder="Ej: Original, Réplica, Por encargoc etc">
+
+            <label for="dimensiones">Dimensiones (en centimetros)</label>
+            <input type="text" class="form-control" id="alto" name="alto" required placeholder="Alto">
+            <input type="text" class="form-control" id="ancho" name="ancho" required placeholder="Ancho">
+            <input type="text" class="form-control" id="largo" name="largo" required placeholder="Largo">
+            
+            <label for="soporte">Soporte (si aplica)</label>
+            <input type="text" class="form-control" id="soporte" name="soporte" placeholder="Ej: Piedra, Concreto, Madera, etc">
+
+            <label for="descripcion">Descripción</label>
+            <textarea class="form-control" id="desc" name="desc" placeholder="Ej: Piedra, Concreto, Madera, etc" rows="7"></textarea>
+
+            <label for="imagenes">Imagenes</label><br>
+            <input class="archive" aria-labelledby="oOS8J" jsname="jdyrU" name="encoded_image" type="file" jsaction="change:sFeBqf">
+
+            <div class="col-md-12 mt-4 mb-3">
+              <button type="Enviar" class="btn btn-danger">Adjuntar otra imagen</button>
+              <button type="Enviar" class="btn btn-danger">Publicar obra</button>
             </div>
-            <div class="col-md-4 mb-3">
-              <label for="nombre">Año</label>
-              <input type="text" class="form-control" id="Nombre" name="Nombre" required placeholder="Ej: 2021">
           </div>
         </div>
+      </div>
     </div>
 
 
