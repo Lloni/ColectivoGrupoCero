@@ -201,7 +201,7 @@ a {
     color: rgb(85, 85, 85);
 }
 
-<<<<<<< HEAD
+
 /*   Inicio Sesion   */
 .formulario-inicio_sesion{
     background:rgba(0, 0, 0,.5);
@@ -215,17 +215,7 @@ a {
 }
 
 
-.patron-puntos {
-    background: -webkit-radial-gradient(#ccc 16%, transparent 16%), -webkit-radial-gradient(#ccc 16%, transparent 16%), transparent;
-        background-position-x: 0%, 0%, 0%;
-        background-position-y: 0%, 0%, 0%;
-        background-size: auto, auto, auto;
-    background-position-x: 0%, 0%, 0%;
-    background-position-y: 0%, 0%, 0%;
-    background-size: auto, auto, auto;
-    background-position: 0px 0px;
-    background-size: 15px 15px;
-=======
+
 .artista_contacto img {
     margin-top: 60px;
     margin-right: 10px;
@@ -235,5 +225,5 @@ a {
 .artista_contacto {
     float: left;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGUlEQVQYlWNgGDzgrKSkMVGKYJg6Jg5SAABWEwX7edtUpgAAAABJRU5ErkJggg==) repeat;
->>>>>>> f98e0f97cc55077f343962c555edd5650436dff0
+
 }
