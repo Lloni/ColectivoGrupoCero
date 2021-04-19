@@ -1,18 +1,19 @@
-## Versión en línea
-https://lloni.github.io/ColectivoGrupoCero/
-
-## Mockup
-https://www.figma.com/file/YTjEC09Ws9IZYppsA9QzQ1/CGC?node-id=2%3A17231
-
-
 # Front-End de sitio web para Colectivo Artístico Grupo Cero
 Desarrollo:
+
 Nicolás Cañete
+
 Manuel Diaz
+
 Jonathan Pacheco
+
 Malcom Pozo
 
-# Índice
+### Versión en línea
+https://lloni.github.io/ColectivoGrupoCero/
+
+### Mockup
+https://www.figma.com/file/YTjEC09Ws9IZYppsA9QzQ1/CGC?node-id=2%3A17231
 
 [Antecedentes del caso 3](#_Toc69509275)
 
