@@ -7,12 +7,11 @@
 - Jonathan Pacheco
 - Malcom Pozo
 
-### Versión en línea
-https://lloni.github.io/ColectivoGrupoCero/
+### Versión en línea https://lloni.github.io/ColectivoGrupoCero/
 
-### Mockup 
-https://www.figma.com/file/YTjEC09Ws9IZYppsA9QzQ1/CGC?node-id=2%3A17231
+### Mockup https://www.figma.com/file/YTjEC09Ws9IZYppsA9QzQ1/CGC?node-id=2%3A17231
 
+_______________________
 
 [Antecedentes del caso](#_Toc69509275)
 
@@ -23,6 +22,8 @@ https://www.figma.com/file/YTjEC09Ws9IZYppsA9QzQ1/CGC?node-id=2%3A17231
 [Mockup](#_Toc69509278)
 
 [Decisiones de diseño](#_Toc69509279)
+
+________________________
 
 
 # Antecedentes del caso
