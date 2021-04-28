@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+
     <title>Grupo Cero - Nueva publicación</title>
 </head>
 
@@ -74,26 +76,28 @@
 
         <div class="row justify-content-left">
             <div class="col-12 col-md-10 col-lg-6">
-                <div>
+                <form id="formulario">
                     <h1>Publicar una obra</h1>
 
                     <label for="nombre">Nombre de la obra</label>
-                    <input type="text" class="form-control" id="nombre-obra" name="nombre" required placeholder="Ej: Atardecer en mi mente">
+                    <input type="text" class="form-control" id="nombreObra" name="nombre" required placeholder="Ej: Atardecer en mi mente">
 
                     <label for="fecha">Año</label>
-                    <input type="text" class="form-control" id="fecha" name="fecha" required placeholder="Ej: 2021">
+                    <input type="number" class="form-control" id="fecha" name="fecha" required placeholder="Ej: 2021">
 
                     <label for="valor">Precio (en pesos chilenos)</label>
-                    <input type="text" class="form-control" id="precio" name="precio" required placeholder="Ej: 250.000">
+                    <input type="number" class="form-control" id="precio" name="precio" required placeholder="Ej: 250.000">
 
                     <label for="tipo-obra">Tipo de obra</label>
                     <input type="text" class="form-control" id="tipo-obra" name="tipo-obra" required placeholder="Ej: Original, Réplica, Por encargoc etc">
 
                     <label for="dimensiones">Dimensiones (en centimetros)</label>
-                    <input type="text" class="form-control" id="alto" name="alto" required placeholder="Alto">
-                    <input type="text" class="form-control" id="ancho" name="ancho" required placeholder="Ancho">
-                    <input type="text" class="form-control" id="largo" name="largo" required placeholder="Largo">
-
+                    <div class="container row justify-content-between">
+                        <input type="number" class="form-control col-3" id="alto" name="alto" required placeholder="Alto">
+                        <input type="number" class="form-control col-3" id="ancho" name="ancho" required placeholder="Ancho">
+                        <input type="number" class="form-control col-3" id="largo" name="largo" required placeholder="Largo">
+                    </div>
+                    
                     <label for="soporte">Soporte (si aplica)</label>
                     <input type="text" class="form-control" id="soporte" name="soporte" placeholder="Ej: Piedra, Concreto, Madera, etc">
 
@@ -105,9 +109,9 @@
 
                     <div class="col-md-12 mt-4 mb-3">
                         <div><a type="Enviar" class="mar-bot-20 btn btn-outline-dark">Adjuntar otra imagen</a></div>
-                        <div><a type="Enviar" class="mar-bot-20 btn btn-danger">Publicar obra</a></div>
+                        <button type="submit" class="mar-bot-20 btn btn-danger">Publicar obra</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     </div>
@@ -165,6 +169,9 @@
         })
     </script>
 
+    <!-- JQuery validate -->
+    <script src="validacion-form-obra.js"></script>
+    
 </body>
 
 </html>
