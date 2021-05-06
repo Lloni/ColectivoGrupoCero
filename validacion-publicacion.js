@@ -77,6 +77,7 @@ formulario.addEventListener('submit',(e) => {
     if (campos.nombre && campos.fecha && campos.precio && campos.tipo && campos.dim && campos.soporte && campos.desc) {
         formulario.reset();  
     } else {
+        //arreglar el query para mostrar el aviso de error
         document.querySelector('#formulario_aviso .error-envio')
         .classList.add('error-envio-activo');
     }
