@@ -488,3 +488,25 @@ footer ul a {
     object-fit: cover;
     height: 100%;
 }
+
+/*   Validacion formulario publicacion de obra   */
+
+.input-error {
+    display: none;
+}
+
+.input-error-activo {
+    display: block;
+    color: #CD1919;
+}
+
+.error-envio{
+    display: none;
+}
+
+.error-envio-activo{
+    background-color: #fa5353;
+    text-align: center;
+    padding: 8px;
+    border-radius: 4px;
+}
