@@ -98,14 +98,16 @@
                     <script>
                         $.getJSON('https://mindicador.cl/api', function(data) {
                             var dailyIndicators = data;
-                            $("<span/>", {html: (document.getElementById('valor-peso').innerHTML / dailyIndicators.dolar.valor).toFixed(2)}).appendTo(document.getElementById('valor-dolar'));
+                            $("<span/>", {
+                                html: (document.getElementById('valor-peso').innerHTML / dailyIndicators.dolar.valor).toFixed(2)
+                            }).appendTo(document.getElementById('valor-dolar'));
                         });
 
                                                 
                         console.log({html: (document.getElementById('valor-peso').innerHTML / dailyIndicators.dolar.valor).toFixed(2)})
                         console.log(dailyIndicators.dolar.valor)
                         console.log(document.getElementById('valor-peso').innerHTML)
-                        
+
                     </script>
 
                     <h5 class="p text-left pb-4">U$<span id="valor-dolar"></span> dólares (disponible)</h5>
