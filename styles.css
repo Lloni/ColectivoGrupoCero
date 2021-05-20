@@ -318,6 +318,8 @@ footer ul a {
     }
     .footer-socialmedia .sm-logos {
         display: flex;
+        flex-flow: row-reverse;
+        justify-content: left;
         margin-bottom: 24px;  
     }
     .footer-socialmedia p {
