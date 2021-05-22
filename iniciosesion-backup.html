@@ -77,12 +77,15 @@
                     <h1 class="font-weight-bold mb-4">Inicia Sesión</h1>
                 </div>
                 <div class="mx-sm-6 md-4 mb-3">
-                    <input type="text" class="form-control" placeholder="Nombre usuario">
+                    <input id="inUser" type="text" class="form-control" placeholder="Nombre usuario">
+                    <div id="mensaje1" class="errores">Ingresa tu nombre</div>
                 </div>
                 <div class="mx-sm-6 md-4 mb-3 ">
-                    <input type="text" class="form-control" placeholder="Contraseña">
+                    <input id="inPass" type="password" class="form-control" placeholder="Contraseña">
+                    <div id="mensaje2" class="errores">Ingresa tu contraseña</div>
+
                     <div class="col-md-12 mt-4 mb-3">
-                        <a href="publicacion.html" type="ingresar" class="btn btn-danger btn-lg btn-bloc">Iniciar sesión</a>
+                        <a id="bSend" type="submit" class="btn btn-danger btn-lg btn-bloc">Iniciar sesión</a>
                         <div class="text-center px-lg-5 pt-lg-3 pb-lg-4  p-4 mt-auto  w-100 ">
                             <div class="row justify-content-between">
 
@@ -153,6 +156,32 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+        <script>
+            var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9_\.\-]+\.[a-zA-Z0-9_\.\-]+$/;
+    
+            $(document).ready(function(){
+                $("#bSend").click(function() {
+                    var user = $("#inUser").val();
+                    var pass = $("#inPass").val();
+                    
+                    if(user == "") {
+                        $("#mensaje1").fadeIn();
+                        return false;
+                    } else {
+                        // $("#mensaje1").fadeOut();
+                        // if (correo == "" || !expr.test(correo)) {
+                        //     $("#mensaje2").fadeIn();
+                        //     return false;
+                        // }
+                        $("#mensaje1").fadeOut();
+                        if(correo == "") {
+                            $("#mensaje2").fadeIn();
+                            return false;
+                        }
+                    }
+                });
+            });
+        </script>
 
 </body>
 

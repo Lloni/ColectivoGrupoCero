@@ -519,3 +519,15 @@ footer ul a {
     padding: 8px;
     border-radius: 4px;
 }
+
+.errores {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #222;
+    display: none;
+    font-size: 12px;
+    margin-top: -60px;
+    margin-left: 280px;
+    padding: 10px;
+    position: absolute;
+  }
