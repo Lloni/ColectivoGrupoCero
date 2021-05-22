@@ -1,20 +1,22 @@
 var validaNombre = function() {
     var nom = document.getElementById("idnombre").value;
-    if (nom.length > 0) {
+    if (nom.length > 3) {
         return true;
     } else {
         return false;
     }
 }
 
-var validarCorreo = function() {
-    var correo = document.getElementById("idcorreo").value;
-    if (correo.length > 0) {
-        return true;
-    } else {
+var validarEmail = function() {
+    var contra = document.getElementById("idcorreo").value;
+    re = /^([\da-z_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+    if (!re.exec(contra)) {
         return false;
-    }
+    } else {
+        return true
+    };
 }
+
 
 var validarContraseña = function() {
     var contra = document.getElementById("idcontraseña").value;
@@ -31,7 +33,7 @@ var validarFunciones = function() {
         envio = "El campo nombre debe ser ingresado";
         return envio;
     }
-    if (validarCorreo() == true) {} else {
+    if (validarEmail() == true) {} else {
         envio = "Debe ingresar un correo (Ejemplo: Correo123@gmail.com)"
         return envio;
     }
@@ -39,7 +41,7 @@ var validarFunciones = function() {
         envio = "El campo contraseña debe contener como mínimo 7 caracteres";
         return envio;
     }
-    if (validaNombre() == true && validarCorreo() == true && validarContraseña() == true) {
+    if (validaNombre() == true && validarEmail() == true && validarContraseña() == true) {
         envio = "Ingreso exitoso, Bienvenido!";
         return envio;
     }
