@@ -1,0 +1,39 @@
+{% extends 'app/base.html' %} {% load static %} {% block contenido %}
+
+<!-- CONTACTO -->
+<div class=" container-xl contacto">
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-8">
+            <div>
+                <h3>Contacto</h3>
+
+                <label for="Nombre y Apellido">Nombre y Apellido:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="Nombre" name="Nombre" required>
+
+                <label for="Telefono">Telefono:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="Telefono" name="Telefono" required>
+
+                <label for="E-mail">E-mail:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="E-mail" name="E-mail" required>
+
+                <label for="Mensaje">Mensaje:<span class="red">*</span></label>
+                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje." rows="7"></textarea>
+
+                <input class="archive" aria-labelledby="oOS8J" jsname="jdyrU" name="encoded_image" type="file" jsaction="change:sFeBqf">
+
+                <div class="col-md-12 mt-4 mb-3">
+                    <!-- <button type="Enviar" class="btn btn-danger">Enviar</button> -->
+                    <input type="submit" class="formularioinput" value="Enviar" onclick="alert(validarFunciones())">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-8 col-md-3 col-lg-3 pt-4 artista_contacto">
+            <img class="img-fluid float-right" src="{% static 'app/img/contacto.jpg' %}" alt="Contacto">
+        </div>
+    </div>
+</div>
+</div>
+
+{% endblock contenido %}
