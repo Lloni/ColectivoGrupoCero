@@ -80,7 +80,6 @@ a:hover {
 
 #header_img {
     background-color: rgba(0, 0, 0, 0.486);
-    background-image: url("/static/app/img/cafe_header.jpg");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,29 +112,6 @@ a:hover {
 
 .row .login-btn {
     padding-left: 10px;
-}
-
-
-/* INICIO DE SESION */
-
-#log_img {
-    background-color: rgba(0, 0, 0, 0.486);
-    background-image: url("app/img/cafe_header.jpg");
-    height: 800px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-#log_img:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 
