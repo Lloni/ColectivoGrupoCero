@@ -1,6 +1,16 @@
 {% extends 'app/base.html' %} {% load static %} {% block contenido %}
 
 <!-- CONTENIDO DETALLE OBRA -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $.getJSON('https://mindicador.cl/api', function(dailyIndicators) {
+        $("<span/>", {
+            html: (document.getElementById('valor-peso').innerHTML / dailyIndicators.dolar.valor).toFixed(2)
+        }).appendTo(document.getElementById('valor-dolar'));
+        console.log(dailyIndicators);
+        console.log(dailyIndicators.dolar.valor);
+    });
+</script>
 <div>
     <div class="container-xl cont_fondo_do">
         <div class="row justify-content-center">
@@ -28,7 +38,7 @@
 
                 <h4 class="p text-left pb-4">$<span id="valor-peso">379000</span> (disponible)</h4>
 
-                <h5 class="p text-left pb-4">U$<span id="valor-dolar"></span> dólares (disponible)</h5>
+                <h5 class="p text-left pb-4">US$<span id="valor-dolar"></span> dólares (disponible)</h5>
 
                 <!-- Fin de sección de precios con API -->
 

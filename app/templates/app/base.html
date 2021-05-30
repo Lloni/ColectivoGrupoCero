@@ -128,29 +128,6 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
-
-
-    <script>
-        var expr = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9_\.\-]+\.[a-zA-Z0-9_\.\-]+$/;
-
-        $(document).ready(function() {
-            $("#bSend").click(function() {
-                var user = $("#inUser").val();
-                var pass = $("#inPass").val();
-
-                if (user == "") {
-                    $("#mensaje1").fadeIn();
-                    return false;
-                } else {
-                    $("#mensaje1").fadeOut();
-                    if (correo == "") {
-                        $("#mensaje2").fadeIn();
-                        return false;
-                    }
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>

@@ -41,7 +41,7 @@ var validarFunciones = function() {
     }
     if (validaNombre() == true && validarCorreo() == true && validarContraseña() == true) {
         envio = "CUENTA CREADA CORRECTAMENTE";
-        window.location.href = "{% url 'publicacion' %}";
+        location.href = "/publicacion";
         return envio;
     }
 }

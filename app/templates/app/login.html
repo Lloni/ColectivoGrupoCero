@@ -8,15 +8,13 @@
                 <h1 class="font-weight-bold mb-4">Inicia Sesión</h1>
             </div>
             <div class="mx-sm-6 md-4 mb-3">
-                <input id="inUser" type="text" class="form-control" placeholder="Nombre usuario">
-                <div id="mensaje1" class="errores">Ingresa tu nombre</div>
+                <input id="idcorreo" type="email" class="form-control" required placeholder="Correo">
             </div>
             <div class="mx-sm-6 md-4 mb-3 ">
-                <input id="inPass" type="password" class="form-control" placeholder="Contraseña">
-                <div id="mensaje2" class="errores">Ingresa tu contraseña</div>
+                <input id="idcontrasena" type="password" class="form-control" required placeholder="Contraseña">
 
                 <div class="col-md-12 mt-4 mb-3">
-                    <a id="bSend" type="submit" class="btn btn-danger btn-lg btn-bloc">Iniciar sesión</a>
+                    <input type="submit" class="formularioinput btn btn-danger btn-lg btn-bloc" value="Iniciar sesión" onclick="alert(validarFunciones())">
                     <div class="text-center px-lg-5 pt-lg-3 pb-lg-4  p-4 mt-auto  w-100 ">
                         <div class="row justify-content-between">
 
@@ -34,6 +32,8 @@
             </div>
         </div>
     </div>
+    <!-- validaciones -->
+    <script src="{% static 'app/js/login.js' %}"></script>
 </header>
 
 {% endblock contenido %}
