@@ -8,10 +8,6 @@ def index(request):
 def artistas(request):
     return render(request,"app/artistas.html")
 
-# contacto
-def contacto(request):
-    return render(request,"app/contacto.html")
-
 # crear_cuenta
 def crear_cuenta(request):
     return render(request,"app/crear_cuenta.html")
