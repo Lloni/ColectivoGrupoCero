@@ -5,36 +5,35 @@
 
     <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-8">
-            <h3>Contacto</h3>
-            {% if 'ok' in request.GET %}
-            <p><b> Su mensaje se ha enviado correctamente </b></p>
-            {% endif %}
-            <form action="" method="POST">
-                {% csrf_token %}
+            <!-- <div>
 
-                <div class="form-group">
-                    <label for="Nombre y Apellido">Nombre y Apellido:<span class="red">*</span></label>
-                    <div>{{form.nombre_contacto}}</div>
-                </div>
-                <div class="form-group">
-                    <label for="Telefono">Telefono:<span class="red">*</span></label>
-                    <div>{{form.telefono}}</div>
-                </div>
-                <div class="form-group">
-                    <label for="E-mail">E-mail:<span class="red">*</span></label>
-                    <div>{{form.email}}</div>
-                </div>
-                <div class="form-group">
-                    <label for="Mensaje">Mensaje:<span class="red">*</span></label>
-                    <div>{{form.mensaje}}</div>
-                </div>
-                <div class="form-group">
-                    <input class="archive" aria-labelledby="oOS8J" jsname="jdyrU" name="encoded_image" type="file" jsaction="change:sFeBqf">
-                </div>
+                <h3>Contacto</h3>
+
+                <label for="Nombre y Apellido">Nombre y Apellido:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="Nombre" name="Nombre" required>
+
+                <label for="Telefono">Telefono:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="Telefono" name="Telefono" required>
+
+                <label for="E-mail">E-mail:<span class="red">*</span></label>
+                <input type="text" class="form-control" id="E-mail" name="E-mail" required>
+
+                <label for="Mensaje">Mensaje:<span class="red">*</span></label>
+                <textarea class="form-control" id="mensaje" name="mensaje" placeholder="Mensaje." rows="7"></textarea>
+
+                <input class="archive" aria-labelledby="oOS8J" jsname="jdyrU" name="encoded_image" type="file" jsaction="change:sFeBqf">
+
                 <div class="col-md-12 mt-4 mb-3">
                     <button type="Enviar" class="btn btn-danger">Enviar</button>
-                    <!-- <input type="submit" class="formularioinput" value="Enviar" onclick="alert(validarFunciones())"> -->
+                    <input type="submit" class="formularioinput" value="Enviar" onclick="alert(validarFunciones())">
                 </div>
+            </div> -->
+            <form action="" method="POST">
+                {% csrf_token %}
+                <table>
+                    {{form.as_table}}
+                </table>
+                <input type="submit" value="Enviar">
             </form>
         </div>
 
@@ -42,6 +41,9 @@
             <img class="img-fluid float-right" src="{% static 'app/img/contacto.jpg' %}" alt="Contacto">
         </div>
     </div>
+
+    <!-- validaciones -->
+    <script src="{% static 'app/js/funciones.js' %}"></script>
 </div>
 
 

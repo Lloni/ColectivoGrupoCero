@@ -1,12 +1,10 @@
-from django.shortcuts import render, redirect
-from django.urls import reverse
-from django.core.mail import EmailMessage
+from django.shortcuts import render
 from .forms import Contact
-
 
 # contacto
 def contacto(request):
     contact_form = Contact()
+<<<<<<< HEAD
 
     # recuperando informacion de formulario
     if request.method == 'POST':
@@ -34,4 +32,6 @@ def contacto(request):
                 return redirect(reverse('contacto')+"?fail")
 
 
+=======
+>>>>>>> parent of 38d0f5a (models y formulario con django + envio de correo automatico)
     return render(request,"contact/contacto.html",{'form':contact_form})
