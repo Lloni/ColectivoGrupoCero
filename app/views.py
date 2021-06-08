@@ -20,10 +20,6 @@ def detalle_artista(request):
 def detalle_obra(request):
     return render(request,"app/detalle_obra.html")
 
-# login
-def login(request):
-    return render(request,"app/login.html")
-
 # obras
 def obras(request):
     return render(request,"app/obras.html")
@@ -32,4 +28,5 @@ def obras(request):
 def publicacion(request):
     return render(request,"app/publicacion.html")
 
-
+def login(request):
+    return render(request,"app/login.html")
